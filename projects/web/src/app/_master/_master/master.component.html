@@ -1,0 +1,40 @@
+<section class="host master" host-classes>
+  <section class="comp master">
+
+    <libs-layout-top-menu>
+      <div class="header">
+        <libs-link [active]="true" class="menu home">link</libs-link>
+        <nav>
+          <ul>
+            <li>
+              <libs-link class="menu home">link</libs-link>
+            </li>
+            <li>
+              <libs-link class="menu home">link</libs-link>
+            </li>
+            <li>
+              <libs-link class="menu home">link</libs-link>
+            </li>
+            <li>
+              <libs-link class="menu home">link</libs-link>
+            </li>
+            <li>
+              <libs-button>login / register</libs-button>
+            </li>
+          </ul>
+        </nav>
+        <a class="logo"></a>
+      </div>
+      <div class="main">
+        <router-outlet></router-outlet>
+      </div>
+      <div class="footer">
+        <div class="bg left"></div>
+        <div class="bg right"></div>
+        <div class="main">
+        </div>
+      </div>
+    </libs-layout-top-menu>
+
+  </section>
+</section>

@@ -1,0 +1,23 @@
+@import 'web-core';
+
+:host {}
+
+section.host.welcome {
+
+}
+
+section.comp.welcome {
+  > label {
+    display: block;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 40px;
+    color: #0a796c;
+  }
+
+  libs-button {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+}

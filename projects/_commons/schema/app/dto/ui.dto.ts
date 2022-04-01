@@ -1,0 +1,1 @@
+import { AppTheme } from '../enum/app-theme.enum';import {AppDirection} from "@web-commons/schema/app/enum/app-direction.enum";import {Theme} from "@web-commons/schema/app/dto/theme.dto";export interface UI {  theme: Theme;  appDirection: AppDirection;  appTheme: AppTheme;}

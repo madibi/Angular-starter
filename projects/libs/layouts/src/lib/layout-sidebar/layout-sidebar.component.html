@@ -1,0 +1,14 @@
+<!-- <header></header> -->
+<!-- <nav></nav> -->
+<div class="content" [ngClass]="{narrow: isNarrow}">
+  <aside>
+    <div class="menus-wrapper">
+    </div>
+    <div class="narrow-maker" (click)="toggleNarrow()">
+    </div>
+  </aside>
+  <main>
+    <ng-content select="main"></ng-content>
+  </main>
+</div>
+<!-- <footer></footer> -->

@@ -1,0 +1,70 @@
+@import 'web-core';
+
+:host {}
+
+section.host.master {}
+
+section.comp.master {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > a {
+      &.logo {
+        display: block;
+        width: 130px;
+        height: 25px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("../../../../../libs/styles/images/logo/logo.png");
+      }
+    }
+
+    > nav {
+      > ul {
+        display: flex;
+
+        li {
+          margin: 0 15px;
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .main {
+    min-height: calc(100vh - 62px - 300px);
+  }
+
+  .footer {
+    min-height: 300px;
+
+    > .bg {
+      width: 300px;
+      height: 300px;
+
+      &.left {
+        float: left;
+        background-position: top right;
+      }
+
+      &.right {
+        transform:scaleX(-1);
+        float: right;
+        background-position: top right;
+      }
+    }
+
+    > .main {
+      max-width: $app-max-width;
+      width: 100%;
+      min-height: 300px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+  }
+}
