@@ -1,0 +1,67 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "@web-commons/*": ["projects/_commons/*"],
+      "@libs/core": [
+        "dist/libs/core/libs-core",
+        "dist/libs/core"
+      ],
+      "@libs/core/*": [
+        "projects/libs/core/*",
+        "projects/libs/core"
+      ],
+      "@libs/layouts": [
+        "dist/libs/layouts/libs-layouts",
+        "dist/libs/layouts"
+      ],
+      "@libs/layouts/*": [
+        "projects/libs/layouts/*",
+        "projects/libs/layouts"
+      ],
+      "@libs/components": [
+        "dist/libs/components/libs-components",
+        "dist/libs/components"
+      ],
+      "@libs/components/*": [
+        "projects/libs/components/*",
+        "projects/libs/components"
+      ],
+      "@libs/widgets": [
+        "dist/libs/widgets/libs-widgets",
+        "dist/libs/widgets"
+      ],
+      "@libs/widgets/*": [
+        "projects/libs/widgets/*",
+        "projects/libs/widgets"
+      ],
+    },
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

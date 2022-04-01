@@ -1,0 +1,8 @@
+@import './../../../../styles/core/core.scss';
+
+a {
+
+  &.active {
+    color: $font-color-active;
+  }
+}

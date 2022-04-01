@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'libs';
+  src:  url('fonts/libs.eot?br99zy');
+  src:  url('fonts/libs.eot?br99zy#iefix') format('embedded-opentype'),
+    url('fonts/libs.ttf?br99zy') format('truetype'),
+    url('fonts/libs.woff?br99zy') format('woff'),
+    url('fonts/libs.svg?br99zy#libs') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="libs-icon"], [class*=" libs-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'libs' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.libs-iconcircle:before {
+  content: "\e900";
+  color: #5b5b5b;
+}
+.libs-iconcircle_fill:before {
+  content: "\e901";
+  color: #5b5b5b;
+}
+.libs-icondashboard_layout:before {
+  content: "\e902";
+  color: #5b5b5b;
+}
+.libs-icondashboard_layout_fill:before {
+  content: "\e903";
+  color: #5b5b5b;
+}
+.libs-iconhome:before {
+  content: "\e904";
+  color: #5b5b5b;
+}
+.libs-iconhome_fill:before {
+  content: "\e905";
+  color: #5b5b5b;
+}
+.libs-iconinformation:before {
+  content: "\e906";
+  color: #5b5b5b;
+}
+.libs-iconinformation_fill:before {
+  content: "\e907";
+  color: #5b5b5b;
+}
+.libs-iconsettings:before {
+  content: "\e908";
+  color: #5b5b5b;
+}
+.libs-iconsettings_fill:before {
+  content: "\e909";
+  color: #5b5b5b;
+}
